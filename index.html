@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
+    <title>FCC Tree Diagram</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title" style="text-align: center">Video Game Sales</h1>
+      <h3 id="description" style="text-align: center">
+        Top 100 Most Sold Video Games Grouped by Platform
+      </h3>
+    </header>
+    <div style="position: relative">
+      <div
+        id="tooltip"
+        style="
+          position: absolute;
+          background-color: white;
+          border: 1px solid black;
+          border-radius: 8px;
+          display: none;
+          padding: 8px;
+        "
+      ></div>
+      <div id="app"></div>
+    </div>
+    <div id="legend" style="margin-top: 1rem"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
